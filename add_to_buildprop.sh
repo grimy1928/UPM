@@ -2,44 +2,25 @@
 #By Jeeko
 busybox echo "" >> /system/build.prop
 busybox echo "# By PurePerformances X" >> /system/build.prop
-busybox echo "debug.sf.hw=1" >> /system/build.prop
-busybox echo "" >> /system/build.prop
-busybox echo "ro.HOME_APP_ADJ=1" >> /system/build.prop
-busybox echo "" >> /system/build.prop
 busybox echo "video.accelerate.hw=1" >> /system/build.prop
-busybox echo "" >> /system/build.prop
 busybox echo "persist.sys.use_dithering=1" >> /system/build.prop
-busybox echo "" >> /system/build.prop
-busybox echo " " >> /system/build.prop
 busybox echo "# System Tweaks" >> /system/build.prop
-busybox echo "ro.HOME_APP_ADJ=1" >> /system/build.prop
-busybox echo "ro.mot.eri.losalert.delay=1000" >> /system/build.prop
-busybox echo "ro.config.hw_fast_dormancy=1" >> /system/build.prop
-busybox echo "ro.ril.enable.amr.wideband=1" >> /system/build.prop
 busybox echo "ro.config.hw_fast_dormancy=1" >> /system/build.prop
 busybox echo "ro.config.hw_quickpoweron=true" >> /system/build.prop
 busybox echo "# Miscellaneous Tweaks" >> /system/build.prop
-busybox echo "persist.sys.NV_FPSLIMIT=90" >> /system/build.prop
-busybox echo "debug.qctwa.statusbar=1" >> /system/build.prop
-busybox echo "debug.qctwa.preservebuf=1" >> /system/build.prop
-busybox echo "debug.qc.hardware=true" >> /system/build.prop
-busybox echo "com.qc.hardware=true" >> /system/build.prop
 busybox echo "ro.telephony.sms_segment_size=160" >> /system/build.prop
 busybox echo "persist.telephony.support.ipv6=1" >> /system/build.prop
 busybox echo "persist.telephony.support.ipv4=1" >> /system/build.prop
-busybox echo "ro.config.hw_fast_dormancy=1" >> /system/build.prop
 busybox echo "persist.sys.shutdown.mode=hibernate" >> /system/build.prop
 busybox echo "ro.config.hw_power_saving=true" >> /system/build.prop
-busybox echo "ro.media.enc.hprof.vid.fps=65" >> /system/build.prop
-busybox echo "ro.mot.buttonlight.timeout=1" >> /system/build.prop
-busybox echo "ro.ril.set.mtu1472=1" >> /system/build.prop
-busybox echo "touch.presure.scale=0.001" >> /system/build.prop
+
 busybox echo "# Signal Tweaks" >> /system/build.prop
-busybox echo "ro.ril.hsxpa=1" >> /system/build.prop
-busybox echo "ro.ril.gprsclass=10" >> /system/build.prop
+busybox echo "ro.ril.hsxpa=2" >> /system/build.prop
+busybox echo "ro.ril.gprsclass=12" >> /system/build.prop
 busybox echo "ro.ril.hsdpa.category=8" >> /system/build.prop
 busybox echo "ro.ril.hsupa.category=6" >> /system/build.prop
 busybox echo "persist.cust.tel.eons=1" >> /system/build.prop
+busybox echo "ro.ril.set.mtu1472=1" >> /system/build.prop
 busybox echo "# Wireless Speed Tweaks" >> /system/build.prop
 busybox echo "net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960" >> /system/build.prop
 busybox echo "net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960" >> /system/build.prop
@@ -91,6 +72,7 @@ busybox echo "# Dialing Tweaks" >> /system/build.prop
 busybox echo "ro.telephony.call_ring.delay=0" >> /system/build.prop
 busybox echo "ro.lge.proximity.delay=25" >> /system/build.prop
 busybox echo "mot.proximity.delay=25" >> /system/build.prop
+busybox echo "ro.ril.enable.amr.wideband=1" >> /system/build.prop
 busybox echo "# DalvikVM" >> /system/build.prop
 busybox echo "dalvik.vm.verify-bytecode=false" >> /system/build.prop
 busybox echo "dalvik.vm.execution-mode=int:fast" >> /system/build.prop
@@ -102,31 +84,16 @@ busybox echo "dalvik.vm.lockprof.threshold=250" >> /system/build.prop
 busybox echo "dalvik.vm.dexopt-flags=m=v,o=y" >> /system/build.prop
 busybox echo "dalvik.vm.jmiopts=forcecopy" >> /system/build.prop
 busybox echo "# Performance" >> /system/build.prop
-busybox echo "debug.composition.type=gpu" >> /system/build.prop
 busybox echo "ro.max.fling_velocity=20000" >> /system/build.prop
 busybox echo "ro.min.fling_velocity=18000" >> /system/build.prop
 busybox echo "debug.performance.tuning=1" >> /system/build.prop
 busybox echo "debug.kill_allocating_task=0" >> /system/build.prop
 busybox echo "debug.overlayui.enable=1" >> /system/build.prop
-busybox echo "debug.egl.profiler=1" >> /system/build.prop
-busybox echo "debug.egl.hw=1" >> /system/build.prop
-busybox echo "debug.sf.hw=1" >> /system/build.prop
 busybox echo "hw3d.force=1" >> /system/build.prop
 busybox echo "hw2d.force=1" >> /system/build.prop
-busybox echo "force_hw_ui=true" >> /system/build.prop
-busybox echo "profiler.force_disable_err_rpt=1" >> /system/build.prop
-busybox echo "profiler.force_disable_ulog=1" >> /system/build.prop
-busybox echo "ro.min_pointer_dur=8" >> /system/build.prop
-busybox echo "debug.kill_allocating_task=0" >> /system/build.prop
 busybox echo "persist.sys.ui.hw=1" >> /system/build.prop
 busybox echo "ro.debuggable=1" >> /system/build.prop
 busybox echo "ro.config.disable.hw_accel=false" >> /system/build.prop
 busybox echo "ro.kernel.android.checkjni=0" >> /system/build.prop
-busybox echo "persist.sys.purgeable_assets=1" >> /system/build.prop
-busybox echo "persist.sys.use_dithering=1" >> /system/build.prop
-busybox echo "ro.secure=0" >> /system/build.prop
-busybox echo "ro.min_pointer_dur=1" >> /system/build.prop
-busybox echo "# 16bit Transparency" >> /system/build.prop
-busybox echo "persist.sys.use_16bpp_alpha=1" >> /system/build.prop
 busybox echo "#" >> /system/build.prop  
  
