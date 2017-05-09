@@ -1,19 +1,17 @@
 #!/sbin/sh
 #By Jeeko
 busybox echo "" >> /system/build.prop
-busybox echo "# By PurePerformances X" >> /system/build.prop
-busybox echo "video.accelerate.hw=1" >> /system/build.prop
+busybox echo "# Ultimate Performance Mod Tweaks" >> /system/build.prop
 busybox echo "persist.sys.use_dithering=1" >> /system/build.prop
 busybox echo "# System Tweaks" >> /system/build.prop
 busybox echo "ro.config.hw_fast_dormancy=1" >> /system/build.prop
 busybox echo "ro.config.hw_quickpoweron=true" >> /system/build.prop
+busybox echo "persist.sys.shutdown.mode=hibernate" >> /system/build.prop
+busybox echo "ro.config.hw_power_saving=true" >> /system/build.prop
 busybox echo "# Miscellaneous Tweaks" >> /system/build.prop
 busybox echo "ro.telephony.sms_segment_size=160" >> /system/build.prop
 busybox echo "persist.telephony.support.ipv6=1" >> /system/build.prop
 busybox echo "persist.telephony.support.ipv4=1" >> /system/build.prop
-busybox echo "persist.sys.shutdown.mode=hibernate" >> /system/build.prop
-busybox echo "ro.config.hw_power_saving=true" >> /system/build.prop
-
 busybox echo "# Signal Tweaks" >> /system/build.prop
 busybox echo "ro.ril.hsxpa=2" >> /system/build.prop
 busybox echo "ro.ril.gprsclass=12" >> /system/build.prop
@@ -62,7 +60,6 @@ busybox echo "ro.config.nocheckin=1" >> /system/build.prop
 busybox echo "profiler.force_disable_err_rpt=1" >> /system/build.prop
 busybox echo "profiler.force_disable_ulog=1" >> /system/build.prop
 busybox echo "# Scrolling Responsiveness" >> /system/build.prop
-busybox echo "windowsmgr.max_events_per_sec=90" >> /system/build.prop
 busybox echo "persist.cust.tel.eons=1" >> /system/build.prop
 busybox echo "# Power Saving Tweaks" >> /system/build.prop
 busybox echo "ro.ril.disable.power.collapse=1" >> /system/build.prop
@@ -95,5 +92,5 @@ busybox echo "persist.sys.ui.hw=1" >> /system/build.prop
 busybox echo "ro.debuggable=1" >> /system/build.prop
 busybox echo "ro.config.disable.hw_accel=false" >> /system/build.prop
 busybox echo "ro.kernel.android.checkjni=0" >> /system/build.prop
-busybox echo "#" >> /system/build.prop  
+busybox echo "# End of UPM Tweaks" >> /system/build.prop  
  
