@@ -1,12 +1,12 @@
 #Intro
 
 ui_print("");
-sleep(2);
+sleep(1);
 ui_print("Ultimate Performance v12 (Version Android 5.0+)");
 ui_print("Blazing Fast Speed");
-sleep(2);
+sleep(1);
 ui_print("System and Data will automatically mount!");
-sleep(4);
+sleep(1);
 ui_print("Installing......");
 ui_print("| Thanks to @Jeeko |");
 ui_print("| @Slaid480 |");
@@ -14,8 +14,7 @@ ui_print("| @Jyn Projects |");
 ui_print("| @ImbaWind |");
 ui_print("| @DEVILOPS 007|");
 ui_print("| @Dany00|");
-
-sleep(5);
+sleep(4);
 
 show_progress(1.000000, 0);
 ui_print("Mounting File-Systems...");
