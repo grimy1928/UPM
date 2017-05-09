@@ -13,6 +13,8 @@ ui_print("| @Slaid480 |");
 ui_print("| @Jyn Projects |"); 
 ui_print("| @ImbaWind |");
 ui_print("| @DEVILOPS 007|");
+ui_print("| @Dany00|");
+
 sleep(5);
 
 show_progress(1.000000, 0);
@@ -20,7 +22,13 @@ ui_print("Mounting File-Systems...");
 run_program("/sbin/busybox", "mount", "/system");
 run_program("/sbin/busybox", "mount", "/data");
 set_progress(0.100000);
-ui_print("Data and System mounted successfully!Now Installing..");
+ui_print("Data and System mounted successfully!Now backing up build.prop..");
+
+#Backing up build.prop
+
+run_program("/sbin/busybox","cp","-r","/system/build.prop","/system/build.prop.bak");
+
+ui_print("Done! Now the installation starts!");
 
 #Starting Installation
 
@@ -193,9 +201,9 @@ ui_print("****************************************");
 
 ui_print("_____________________________________");
 ui_print("                                     ");
-ui_print("   Ultimate Performance Mod          ");
-ui_print("                  By                ");
-ui_print("           sohamsen                ");
-ui_print("      Give me a thanks           ");
+ui_print("      Ultimate Performance Mod       ");
+ui_print("                  By                 ");
+ui_print("               sohamsen              ");
+ui_print("           Give me a thanks          ");
 ui_print("_____________________________________");
 
