@@ -72,11 +72,9 @@ busybox echo "mot.proximity.delay=25" >> /system/build.prop
 busybox echo "ro.ril.enable.amr.wideband=1" >> /system/build.prop
 busybox echo "# DalvikVM" >> /system/build.prop
 busybox echo "dalvik.vm.verify-bytecode=false" >> /system/build.prop
-busybox echo "dalvik.vm.execution-mode=int:fast" >> /system/build.prop
+busybox echo "dalvik.vm.execution-mode=int:jit" >> /system/build.prop
 busybox echo "dalvik.vm.checkjni=false" >> /system/build.prop
 busybox echo "dalvik.vm.dexopt-data-only=1" >> /system/build.prop
-busybox echo "dalvik.vm.verify-bytecode=false" >> /system/build.prop
-busybox echo "dalvik.vm.execution-mode=int:jit" >> /system/build.prop
 busybox echo "dalvik.vm.lockprof.threshold=250" >> /system/build.prop
 busybox echo "dalvik.vm.dexopt-flags=m=v,o=y" >> /system/build.prop
 busybox echo "dalvik.vm.jmiopts=forcecopy" >> /system/build.prop
