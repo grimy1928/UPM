@@ -49,7 +49,6 @@ busybox echo "net.rmnet0.dns2=8.8.4.4" >> /system/build.prop
 busybox echo "net.dns1=8.8.8.8" >> /system/build.prop
 busybox echo "net.dns2=8.8.4.4" >> /system/build.prop
 busybox echo "# Graphics Enhancement" >> /system/build.prop
-busybox echo "debug.performance.tuning=1" >> /system/build.prop
 busybox echo "video.accelerate.hw=1" >> /system/build.prop
 busybox echo "ro.media.dec.jpeg.memcap=20000000" >> /system/build.prop
 busybox echo "ro.media.enc.hprof.vid.bps=8000000" >> /system/build.prop
