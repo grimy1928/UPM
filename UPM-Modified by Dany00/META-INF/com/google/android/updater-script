@@ -1,7 +1,7 @@
 #Intro
 
 ui_print("");
-ui_print("Ultimate Performance v12 (Version Android 5.0+)");
+ui_print("Ultimate Performance v12 Test (Version Android 5.0+)");
 ui_print("Blazing Fast Speed");
 sleep(1);
 ui_print("| Thanks to @Jeeko |");
