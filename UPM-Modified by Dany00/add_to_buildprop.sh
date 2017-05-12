@@ -88,6 +88,5 @@ busybox echo "hw2d.force=1" >> /system/build.prop
 busybox echo "persist.sys.ui.hw=1" >> /system/build.prop
 busybox echo "ro.debuggable=1" >> /system/build.prop
 busybox echo "ro.config.disable.hw_accel=false" >> /system/build.prop
-busybox echo "ro.kernel.android.checkjni=0" >> /system/build.prop
 busybox echo "# End of UPM Tweaks" >> /system/build.prop  
  
