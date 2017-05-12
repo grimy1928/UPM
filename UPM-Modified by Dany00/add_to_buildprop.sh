@@ -57,8 +57,6 @@ busybox echo "# Disables data sent and logging" >> /system/build.prop
 busybox echo "ro.config.nocheckin=1" >> /system/build.prop
 busybox echo "profiler.force_disable_err_rpt=1" >> /system/build.prop
 busybox echo "profiler.force_disable_ulog=1" >> /system/build.prop
-busybox echo "# Scrolling Responsiveness" >> /system/build.prop
-busybox echo "persist.cust.tel.eons=1" >> /system/build.prop
 busybox echo "# Power Saving Tweaks" >> /system/build.prop
 busybox echo "ro.ril.disable.power.collapse=1" >> /system/build.prop
 busybox echo "pm.sleep_mode=1" >> /system/build.prop
